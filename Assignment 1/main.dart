@@ -16,7 +16,8 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    final inputController = TextEditingController(); // get user input
+    final inputController =
+        TextEditingController(); // user input initialization
     var answer = ['Apple', 'Banana', 'Mango'];
 
     return MaterialApp(
@@ -28,7 +29,8 @@ class _MyAppState extends State<MyApp> {
           Questions('Enter a number:'),
           Padding(
             padding: const EdgeInsets.all(16),
-            child: TextField(controller: inputController),
+            child: TextField(
+                controller: inputController), // get user input from textfield
           ),
           RaisedButton(
             child: Text('Show Answer'),
