@@ -16,7 +16,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    final inputController = TextEditingController();
+    final inputController = TextEditingController(); // get user input
     var answer = ['Apple', 'Banana', 'Mango'];
 
     return MaterialApp(
