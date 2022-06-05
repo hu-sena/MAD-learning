@@ -1,8 +1,6 @@
-# assignment_02
+# Assignment 2 Part 2
 
-A new Flutter project.
+Modify your current app to now have tabs. You can implement tab by having a tabController. 
 
+Refer to: https://flutter.dev/docs/cookbook/design/tabs. This will give you a hint on how to implement a layout with tabs.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
