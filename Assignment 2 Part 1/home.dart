@@ -9,8 +9,6 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
-    // TextStyle(
-    //     color: Colors.grey, backgroundColor: Colors.redAccent, fontSize: 20);
 
     return Scaffold(
       appBar: AppBar(
